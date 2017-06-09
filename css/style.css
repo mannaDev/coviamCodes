@@ -1,0 +1,97 @@
+body{
+    background: url("../assets/images/back01.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 2em;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.6em;
+}
+h3{
+    font-size: 1.4em;
+}
+.moveLeft{
+    float:left;
+}
+.moveRight{
+    float:right;
+}
+header{
+    text-align: center;
+    color: #AAFFCC;
+}
+header h1 span:nth-child(1){
+    color: #CCFFAA;
+}
+header h1 span:nth-child(2){
+    color: #CCDDFF;
+}
+article div:nth-child(2){
+    background: rgba(210,200,240,0.7);
+    padding: 10px 25px;
+    border-radius: 20px;
+    color: #556644;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+}
+section{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+table{
+    width: 100%;
+    border: 5px solid #CCAAFF;
+}
+tr{
+    width: 100%;
+}
+td{
+    float: left;
+    width: 20%;
+    height: 90px;
+    border: 2px solid #EEFFCC;
+    margin: 2%;
+    font-size: 3em;
+    line-height: 90px;
+    text-align: center;
+    background: rgba(12,15,180,0.3);
+    color: #CCDDFF;
+    cursor: pointer;
+}
+footer{
+    padding: 0 50px;
+    font-size: 2em;
+    color: #EEFFEE;
+}
+#gameStopper{
+    position: fixed;
+    z-index: 4;
+    height: 450px;
+    background: rgba(10,10,5,0.75);
+}
+#gameStopper button{
+    background: rgba(210,200,240,0.7);
+    padding: 20px 40px;
+    border-radius: 15px;
+    border: 2px solid #EEFFCC;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+#gameOver{
+    float: left;
+    position: absolute;
+    border-radius: 15px;
+    z-index: 9;
+    width: 250px;
+    text-align: center;
+    margin: 150px 190px;
+    padding: 10px 20px;
+    background: rgba(25,45,100,0.8);
+    font-size: 1.8em;
+    color: #AACCFF;
+}
